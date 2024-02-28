@@ -13,11 +13,12 @@ def fibonacci_sum(n):
         if current_term % 2 == 0:
             total_sum += new_term
 
-        # fibonacci calculation
+        # fibonacci calculation.
         new_term = previous_term + current_term
         previous_term = current_term
         current_term = new_term
 
+    # Return sum of fibonacci.
     return total_sum
 
 

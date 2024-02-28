@@ -15,7 +15,7 @@ function totalSum(n) {
     const sumOf5 = sumOfMultiples(5, n);
     const sumOf15 = sumOfMultiples(15, n);
 
-    // Add sums and subtract overlap
+    // Add sums and subtract overlap.
     const answer = sumOf3 + sumOf5 - sumOf15;
     return answer;
 }

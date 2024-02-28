@@ -7,7 +7,7 @@ function fibonacci_sum(n) {
     let previousTerm = 0;
     let currentTerm = 1;
 
-    // Iterate up to n and add all even values of the sequence. 
+    // Iterate to n and add all even values of the sequence. 
     while (currentTerm <= n) {
         if (currentTerm % 2 == 0) {
             totalSum += currentTerm;

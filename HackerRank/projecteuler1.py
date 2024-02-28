@@ -1,5 +1,5 @@
 # Problem: Find the sum of all the multiples of 3 or 5 below N.
-# Solution: Use the formula for arithmetic sums
+# Solution: Use the formula for arithmetic sums.
 
 # Create a function that finds the sum of arithmetic series using formula.
 def sum_of_multiples(k, n):
