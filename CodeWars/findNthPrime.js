@@ -1,4 +1,5 @@
 // Given any N find the Nth prime.
+// Solutions below are not correct and need to be redone.
 
 function sieveOfEratosthenes(limit) {
     let primes = new Array(limit + 1).fill(true);

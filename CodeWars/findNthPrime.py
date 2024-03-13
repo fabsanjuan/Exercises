@@ -1,5 +1,5 @@
 # Problem: Given any n N find the N'th prime.
-# Solution: 
+# Solution: below is not correct and needs to be reworked.
 
 from math import log
 
