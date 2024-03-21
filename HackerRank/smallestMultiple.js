@@ -5,7 +5,6 @@ function sieveOfEratosthenes(n) {
     let primes = [];
     let prime = new Array(n + 1).fill(true);
     prime[0] = prime [1] = false;
-
     for (let p = 2; p * p <= n; p++) {
         if (prime[p]) {
             for (let i = p * p; i <= n; i += p) {
@@ -13,7 +12,6 @@ function sieveOfEratosthenes(n) {
             }
         }
     }
-
     for (let p = 2; p <= n; p++) {
         if (prime[p]) {
             primes.push(p);
@@ -21,11 +19,9 @@ function sieveOfEratosthenes(n) {
     }
     return primes;
 }
-
 function smallestMultiple(n) {
     let primes = sieveOfEratosthenes(n);
     let lcm = 1;
-
     for (let i = 0; i < primes.length; i++) {
         let p = primes[i];
         let highestPower = p;
@@ -34,7 +30,6 @@ function smallestMultiple(n) {
         }
         lcm *= highestPower;
     }
-
     return lcm;
 }
 

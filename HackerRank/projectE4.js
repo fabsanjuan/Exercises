@@ -7,7 +7,6 @@ function isPalindrome(number) {
     const reversedStr = numberStr.split('').reverse().join('');
     return numberStr === reversedStr;
 }
-
 // Iterate down from N.
 function findLargestPalindrome(n) {
     let maxPalindrome = 0;

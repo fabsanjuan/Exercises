@@ -4,7 +4,6 @@
 def to_camel_case(text):
     if text == '':
         return ''
-    
     camel_case_str = []
     skip = False
     for i, char in enumerate(text):
@@ -17,5 +16,4 @@ def to_camel_case(text):
             skip = True
         else:
             camel_case_str.append(char)
-
     return ''.join(camel_case_str)

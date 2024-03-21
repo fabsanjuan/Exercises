@@ -5,7 +5,6 @@
 def sum_of_multiples(k, n):
     m = (n - 1) // k
     return k * m * (m + 1) // 2
-
 # Find the sum of multiples of 3 or 5.
 def total_sum(n):
     sum_3 = sum_of_multiples(3, n)
@@ -15,6 +14,17 @@ def total_sum(n):
     # Add the sums and subtract overlap.
     answer = sum_3 + sum_5 - sum_15
     return answer
+
+
+
+
+
+
+
+
+
+
+
 
 '''
 Practice tests on hackerrank page:

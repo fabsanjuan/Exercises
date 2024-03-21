@@ -4,7 +4,6 @@
 def spinWords(string):
     # Split string into words.
     string_words = string.split()
-
     # Iterate through words and reverse those with 5 letters or more.
     processed_words = []
     for word in string_words:
@@ -13,11 +12,16 @@ def spinWords(string):
             processed_words.append(reversed_word)
         else:
             processed_words.append(word)
-    
-
     # Join the words into a string.
     reply = " ".join(processed_words)
     return reply
+
+
+
+
+
+
+
 
 
 
