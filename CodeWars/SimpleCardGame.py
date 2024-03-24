@@ -7,24 +7,20 @@ def winner(deck1, deck2):
     # Player score counters.
     scoreDeck1 = 0
     scoreDeck2 = 0
-
     for card1, card2 in zip(deck1, deck2):
         # Convert face cards to values.
         val_card1 = cardValues.get(card1, int(card1))
         val_card2 = cardValues.get(card2, int(card2))
-
         # Compare values and update scores.
         if val_card1 > val_card2:
             scoreDeck1 +=1
         elif val_card1 < val_card2:
             scoreDeck2 +=1
-        
     # Determine winner and return message.
     if scoreDeck1 > scoreDeck2:
         winner_msg = f"Deck 1 wins {scoreDeck1} to {scoreDeck2}"
     elif scoreDeck1 < scoreDeck2:
         winner_msg = f"Deck 2 wins {scoreDeck2} to {scoreDeck1}"
     else:
-        winner_msg = "It's a tie"
-    
+        winner_msg = "It's a tie" 
     return winner_msg

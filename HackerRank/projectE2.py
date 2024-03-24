@@ -7,17 +7,14 @@ def fibonacci_sum(n):
     current_term = 1
     previous_term = 0
     total_sum = 0
-
     # Iterate through sequence and add even terms.
     while current_term <= n:
         if current_term % 2 == 0:
             total_sum += new_term
-
         # fibonacci calculation.
         new_term = previous_term + current_term
         previous_term = current_term
         current_term = new_term
-
     # Return sum of fibonacci.
     return total_sum
 
