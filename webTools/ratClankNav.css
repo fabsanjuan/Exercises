@@ -1,0 +1,51 @@
+/*---------------------Generic Styles-------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*---------------------Header Styles-------------------------*/
+.top-nav {
+    display: flex;
+    width: 100%;
+}
+
+#player-level-stats {
+    display: grid;
+    padding: 0 4rem;
+    /* 8 columns and 2 rows.*/
+}
+
+#menu-options-sel {
+    background: radial-gradient(#8c1aff, #28004d);
+    width: 100%;
+}
+
+#menu-items {
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.li-item {
+    padding: 1rem;
+    color: rgb(251, 238, 218);
+    border-right: 1px solid rgb(251, 238, 218);
+    text-align: center;
+}
+
+.li-item:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: navajowhite;
+}
