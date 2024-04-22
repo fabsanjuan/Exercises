@@ -1,0 +1,35 @@
+/*---------------------Generic Styles-------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*---------------------Header Styles-------------------------*/
+.card-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.img-container {
+    background-image: url("../../hologram-interface/1. Free Hologram Interface Wenrexa/Card X1/Card X1.png");
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    border: 2px solid;
+    color: pink;
+}
+
+.img-container h1 {
+    color: #9bc6bd;
+    margin-top: 6rem;
+    margin-left: 9rem;
+}
