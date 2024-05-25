@@ -3,7 +3,7 @@
 const heapsort = arr => {
     const a = [...arr];
     let l = a.length;
-  
+    
     const heapify = (a, i) => {
       const left = 2 * i + 1;
       const right = 2 * i + 2;
@@ -24,5 +24,4 @@ const heapsort = arr => {
     }
     return a;
   };
-  
   heapsort([6, 3, 4, 1]); // [1, 3, 4, 6]
