@@ -136,3 +136,47 @@ Usually some authentication user/pw will enable email and cloud syncing.
 
     Section 2: Networking.
 2.1 Ports and Protocols.
+There are different types of networks including wireless, DSL, cable modem, ethernet.
+IP is designed to move efficiently between one point and another - IP address. (like a truck driving over the road). Has IP headers and IP payload.
+The payload could have any data inside it (encapsulation), it commonly has TCP and UDP which themselves have their headers and payloads (OSI layer 4).
+UTP and TCP provide multiplexing capabilities.
+TCP -> formal process for set up and tear down of data flow (reliable delivery), ensures data has been received. Reorder mgs, throttling feature, retransmission feature. (HTTPS, SSH)
+UDP -> connectionless flow simply send data from one point to another (fast) referred to as unreliable delivery. Associated with real time communication (phone call, DHCP, TFTP)
+The port determines the final important peice of network traffic - which application on the server is going to use the data (which room in the house is the box going in).
+Common (non-ephemeral) port numbers to know: 80, 443, 25, 123 (0-1023). ephemeral ports on source device uses range 1023-65535
+
+ports are important for establishing sessions between devices but also for firewalls.
+FTP TCP port 20, TCP port 21
+SSH TCP port 22
+Telnet TCP port 23
+SMTP TCP port 25
+DNS UDP port 53
+DHCP UDP port 67 UDP port 68
+HTTP TCP port 80
+HTTPS TCP port 443
+POP3 TCP port 110
+IMAP4 TCP 143
+SMB (Windows) TCP port 445
+NetBIOS (Older Windows) UDP port 137 TCP port 139
+SNMP UDP port 161 UDP port 162
+LDAP TCP port 389
+RDP TCP port 3389
+
+    Terminology:
+    IP - Internet protocol explains headers, frames, trailers.
+    TCP - Transmission control protocol or connection oriented protocol.
+    UDP - User Datagram protocol
+    DHCP - Dynamic host configuration protocol is the automated system used to assign IP address to devices on a network.
+    TFTP - Trivial file transfer protocol
+    FTP - File transfer protocol
+    SSH - Secure Shell
+    Telnet - 
+    SMTP - Simple mail transfer protocol
+    DNS - Domain name system
+    SMB - Server message block (CIFS)
+    SNMP - Simple network management protocol evolution of the 3 versions.
+    LDAP - Lightweight directory access protocol
+    RDP - Remote desktop protocol is the Window's feature that allows you to remotely control a windows machine.
+
+
+2.2 Network Devices.

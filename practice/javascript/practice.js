@@ -54,6 +54,21 @@ TODO// Tagged templates are for compacting a function call with template literal
 // Error objects have a name and message property that will provide more information about the error.
 
 
+// Loops in js.
+// The different loop mechanisms offer different ways to start and stop the iterations. Some situation favor a specific type of loop.
+// The for loop repeats until a specified condition is false. for (initialization; condition; afterthought) /n statement.
+// the do...while loop repeats until false. do /n statement /n while (condition);
+// A while statement executes until condition is false. while (condition) /n statement.
+// Infinite loops happen when your condition doesn't ever evaluate to false - bug.
+// A label provides a statement with an identifier to refer to it elsewhere in program. label: /n statement
+// break is used for: terminating a loop, switch, or used with a label statement
+// continue is used to restart a while, do-while, for or label statement. It starts the next iteration of the innermost OR labeled loop.
+// for...in iterates a specified variable over all enumerable props of an object. for (var in object) /n statement
+// for loop is better for arrays. for...in iterates over user-defined props in addition to array elements.
+// for...of creates a loop iterating over iterable objects. It works only on the values of each prop.
+// for...in and for...of loops can be used in conjunction with destructuring.
+
+
 // Converting from strings to numbers.
 let identityX = "121";
 let identityY = '11';
