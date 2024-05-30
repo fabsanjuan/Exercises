@@ -29,14 +29,29 @@
 // floating point literals have 4 components (digits + decimal + fraction + exponent If any).
 // An object literal is zero or more pairs of property names and their associated values.
 // object properties can be accessed using the dot (.) notation or bracket [] notation.
-// object literals support many shorthand syntaxes that enhances its functionality (prototype construction, defining methods, making super calls, etc.)
+TODO// object literals support many shorthand syntaxes that enhances its functionality (prototype construction, defining methods, making super calls, etc.)
 // a regExpression literal is a pattern enclosed by slashes / pattern / .
 // String literal is zero or more chars enclosed in single or double quotes.
 // Template literals are chars enclosed by the back tick. This allows for string interpolation.
-// Tagged templates are for compacting a function call with template literals - learn more about this.
+TODO// Tagged templates are for compacting a function call with template literals - learn more about this.
 
-
-
+// Control flow in js.
+// There is a compact set of control flow statements in js (if, for, while) these are used in conjunction with block statements {}.
+// block statements are used to group statements together.
+// js supports 2 types of conditional statements if...else and switch.
+// if...else statements support a boolean condition that returns either true or false. Only the first condition to evaluate as true will be executed.
+// It is not good practice to have an assignment as a condition - this is possible if using 'while' statements.
+// Know and learn the falsey values in js (false, undefined, null, 0, NaN, empty string).
+// Switch statements evaluate an expression and try to match the corresponding case label and transfer control to that clause if non is found the default label is used. 
+// Optional break statements within switch will exit our of switch block - otherwise the other cases are also evaluated.
+// You can see exceptions using the 'throw' statement and handle them using the try...catch statements.
+// The throw statement will throw any exception or statement in js. However, it is best practice to use the exception types for this purpose.
+// You want the try block to succeed but if not transfer control over to the catch block. The finally block is 'last attempt'
+// js will create an identifier for the exception during catch block onlye and deleted afterwards. When ts error use console.error() instead of console.log()
+// the finally blcok will execute regardless of an exception or not - it is a graceful way to fail your program.
+// Note, if the finally blcok has a return statement it will always return this value regardless of other statements.
+// You can also nest try...catch...finally blocks.
+// Error objects have a name and message property that will provide more information about the error.
 
 
 // Converting from strings to numbers.
