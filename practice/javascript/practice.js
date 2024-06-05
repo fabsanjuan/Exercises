@@ -69,6 +69,16 @@ TODO// Tagged templates are for compacting a function call with template literal
 // for...in and for...of loops can be used in conjunction with destructuring.
 
 
+//functions in js 
+// function declaration
+// function name(arg) {}
+// function expressions
+// calling functions
+// function hoisting
+// function scope
+// function stack
+// closures
+
 // Converting from strings to numbers.
 let identityX = "121";
 let identityY = '11';
