@@ -180,3 +180,5 @@ RDP TCP port 3389
 
 
 2.2 Network Devices.
+switches are simple network devices that connect networks. SOHO routers have multiple functionality switches, routers, wireless access point.
+A router forwards traffic between different IP subnets
