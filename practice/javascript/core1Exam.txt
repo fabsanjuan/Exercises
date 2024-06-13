@@ -3,6 +3,7 @@ Core 1 exam notes for review and practice test construction.
 
     Section 1: Mobile Devices.
 1.1 Laptop Hardware.
+What is another way we can describe a laptop?
 From a technician's perspective, laptops are highly specialized pieces of equipment with a specific form factor.
 This makes the repair difficulty highly variable between manufacturers and more difficult in general.
 People tend to specialize in a particular brand as they learn specific processes for repair.
@@ -182,3 +183,6 @@ RDP TCP port 3389
 2.2 Network Devices.
 switches are simple network devices that connect networks. SOHO routers have multiple functionality switches, routers, wireless access point.
 A router forwards traffic between different IP subnets
+
+    Terminology:
+    ASIC - 
