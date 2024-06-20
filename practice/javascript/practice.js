@@ -84,3 +84,15 @@ let identityX = "121";
 let identityY = '11';
 let numberX = parseInt(identityX);
 let numberY = parseFloat(identityY);
+
+
+
+
+
+
+
+
+
+
+// 2024-06-19
+// 
