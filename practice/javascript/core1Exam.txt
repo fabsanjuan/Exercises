@@ -185,4 +185,4 @@ switches are simple network devices that connect networks. SOHO routers have mul
 A router forwards traffic between different IP subnets
 
     Terminology:
-    ASIC - 
+    ASIC - g
