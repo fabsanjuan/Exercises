@@ -186,3 +186,7 @@ A router forwards traffic between different IP subnets
 
     Terminology:
     ASIC - g
+
+
+Outlines of the major sections.
+Deadlines for presentations.
