@@ -193,3 +193,85 @@ At what layer of OSI do these devices work? Switches, routers, WAP?
 
 Outlines of the major sections.
 Deadlines for presentations.
+
+2.3 Wireless Networks.
+
+
+2.4 Network Services.
+
+
+2.5 Network Configurations.
+
+
+2.6 Network Connections.
+
+
+2.7 Internet Connections.
+
+
+2.8 Network Tools.
+
+
+//------------------------------------------------------------------//
+
+    Section 3: Hardware
+
+3.1 Cables and Adapters.
+
+
+3.2 Memory.
+
+
+3.3. Storage Devices.
+
+
+3.4 Motherboards.
+
+
+3.5 Power. 
+
+
+
+3.6 Multifunction Devices.
+
+
+3.7 Printers.  
+
+
+//--------------------------------------------------------------------------------//
+
+    Section 4: Virtualization and Cloud Computing.
+
+4.1 Cloud Computing.
+
+
+4.2 Client-side Virtualization.
+
+
+//--------------------------------------------------------------------------------//
+
+    Section 5: Hardware and Network Troubleshooting.
+
+5.1 Troubleshooting 
+
+
+5.2 Troubleshooting Computer Hardware.
+
+
+5.3 Troubleshooting Storage.
+
+
+5.4 Troubleshooting Displays.
+
+
+5.5 Troubleshooting Mobile Devices.
+
+
+5.6 Troubleshooting Printers.
+
+5.7 Troubleshooting Networks. 
+
+
+///----------------------------------------------------------------------------------///
+
+220-1102 A+
