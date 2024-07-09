@@ -182,10 +182,13 @@ RDP TCP port 3389
 
 2.2 Network Devices.
 switches are simple network devices that connect networks. SOHO routers have multiple functionality switches, routers, wireless access point.
-A router forwards traffic between different IP subnets
+A router forwards traffic between different IP subnets.
+At what layer of OSI do these devices work? Switches, routers, WAP?
+
+
 
     Terminology:
-    ASIC - g
+    ASIC - Application specific integrated circuit- purpose?
 
 
 Outlines of the major sections.
