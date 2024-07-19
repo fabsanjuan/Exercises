@@ -315,4 +315,40 @@ Deadlines for presentations.
 
     Section 2: Security.
 
-2.1 
+2.1 Security Measures
+
+
+2.2 Wireless Security
+
+
+2.3 Malware
+
+
+2.4 Social Engineering
+
+
+2.5 Windows Security
+
+
+2.6 Security Best Practices
+
+
+2.7 Mobile Device Security
+
+
+
+2.8 Data Destruction
+
+
+
+2.9 SOHO Networks.
+
+
+2.10 Browser Security
+
+
+//-------------------------------------------------------------------//
+
+    Section 3: Software Troubleshooting
+
+3.1 
