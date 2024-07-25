@@ -351,4 +351,26 @@ Deadlines for presentations.
 
     Section 3: Software Troubleshooting
 
-3.1 this
+3.1 Troubleshooting Windows
+
+
+3.2 Troubleshooting Security
+
+
+3.3 Malware Removal
+
+
+
+3.4 Troubleshooting Mobile Devices
+
+
+
+3.5 Troubleshooting Mobile Applications
+
+
+
+//---------------------------------------------------------------------//
+
+
+    Section 4: Operational Procedures
+
